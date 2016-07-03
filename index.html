@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de" ng-app="Informatik_und_IT_Quiz_App">
+<head>
+
+  <meta charset="utf-8">
+  <title>Informatik und IT Quiz App - eine Frage, eine richtige Antwort</title>
+  <meta name="description" content="Informatik und IT Quiz App - eine Frage, eine richtige Antwort">
+  <meta name="author" content="datenpaul">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <script src="js/angular.js"></script>
+  <script src="js/questions.js"></script>	
+  <script src="js/app.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="one column"></div>
+      <div class="ten columns" style="margin-top: 5%; text-align: center;">
+
+        <div ng-controller="QuizController">
+          <h5>{{question.question}}</h5>
+          <div ng-repeat="a in question.answers">
+                <button ng-if="correctdisplay && question.correct==$index" ng-click="correct_controll($index)" class="button-primary">{{a}}</button>
+                <button ng-if="correctdisplay && question.correct!=$index" ng-click="correct_controll($index)">{{a}}</button>
+                <button ng-if="!correctdisplay" ng-click="correct_controll($index)">{{a}}</button>
+          </div>
+          <br />
+          {{points}} ({{points*100/count_questions | number:0}}%) / {{count_questions}} (100%) 
+          <br />
+          <meter min="0" max="100" value="{{points*100/count_questions | number:0}}" style="width: 15rem"></meter>
+          <form>
+            <input type="checkbox" ng-model="correctdisplay">
+          </form>
+        </div> 
+
+      </div>
+      <div class="one column"></div>
+    </div>
+  </div>
+
+</body>
+</html>
