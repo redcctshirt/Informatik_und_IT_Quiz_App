@@ -19,6 +19,6 @@ eine kleine, simple Informatik und IT Quiz App - eine Frage, eine richtige Antwo
 # License
 
 * App - [open-source MIT license](https://github.com/redcctshirt/Informatik_und_IT_Quiz_App/blob/master/LICENSE)
-* Quiz-Fragen (js/questions.js) [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/)
+* Quiz-Fragen (js/questions.js) - [Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/)
 
 

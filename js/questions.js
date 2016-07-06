@@ -1,8 +1,8 @@
 var questions_data = [
 
             {
-            question: "Wer baute 1941 den ersten Universalcomputer (Z3) ?",
-            answers: ["Konrad Zuse","Larry Page","Steve Jobs","Larry Wall"],
+            question: "Was bedeutet die Abkürzung EVA beim Grundschema der Datenverarbeitung namens EVA-Prinzip ?",
+            answers: ["Eingabe, Verarbeitung, Ausgabe","Entpackung, Verarbeitung, Algorithmus","ensure, verify, alter","Enders, Versailles, Alkine"],
             correct: 0
             },
             {
