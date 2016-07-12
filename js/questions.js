@@ -6,14 +6,24 @@ var questions_data = [
             correct: 0
             },
             {
-            question: "Wann begann IBM mit der Produktion des PCs ?",
-            answers: ["1941","1985","1979","1981"],
+            question: "Welches Gerät kümmert sich um die Ausgabe in der Datenverarbeitung ?",
+            answers: ["CPU","Plotter","Tastatur","Maus"],
+            correct: 1
+            },
+            { 
+            question: "Welches Gerät kümmert sich um die Ausgabe in der Datenverarbeitung ?",
+            answers: ["Maus","Barcode-Leser","Drucker","Scanner"],
+            correct: 2
+            },
+            { 
+            question: "Welches Gerät gehört nicht zum Teil der Eingabe in der Datenverarbeitung ?",
+            answers: ["Scanner","Tastatur","Maus","Beamer"],
             correct: 3
             },
             { 
-            question: "Wie nennt man Rechner mit einem reduzierten Befehlssatz (CPU) ?",
-            answers: ["CISC","RISC","i7","80386er"],
-            correct: 1
+            question: "Bei welchem Gerät sind Ein- und Ausgabe (Datenverarbeitung) nur schwer zu trennen ?",
+            answers: ["Smartphone","Scanner","Nadeldrucker","Maus"],
+            correct: 0
             }      
 
 ];
