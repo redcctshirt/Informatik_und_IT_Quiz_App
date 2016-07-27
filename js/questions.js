@@ -62,6 +62,20 @@ var questions_data = [
             question: "Durch wen wurde das Projekt 'Git' angestoßen ?",
             answers: ["Linus Torvalds","Cecilia Payne","Marie Curie","Guido van Rossum"],
             correct: 0
+            },
+            {
+            type: "one",
+            tag: "git",
+            question: "Wie kann man sich die Git-Konfiguration ansehen ?",
+            answers: ["in die Datei git_config schauen","git config -l ausführen","git show config ausführen","mit dem Tool gitconfig"],
+            correct: 1
+            },
+            {
+            type: "one",
+            tag: "git",
+            question: "Welches Verzeichnis wird beim Anlegen eines neuen Git-Repositories im Projektordner erstellt ?",
+            answers: ["info","gitconfig",".git",".gitconfig"],
+            correct: 2
             }
 
 ];
