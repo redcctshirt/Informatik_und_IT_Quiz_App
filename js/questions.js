@@ -76,6 +76,20 @@ var questions_data = [
             question: "Welches Verzeichnis wird beim Anlegen eines neuen Git-Repositories im Projektordner erstellt ?",
             answers: ["info","gitconfig",".git",".gitconfig"],
             correct: 2
+            },
+            {
+            type: "one",
+            tag: "git",
+            question: "Wie können Dateien aus dem Staging-Bereich wieder entfernt werden ?",
+            answers: ["'git empty' ausführen","mit dem Tool gitconfig","das Verzeichnis .staging löschen","'git rm --cached' ausführen"],
+            correct: 3
+            },
+            {
+            type: "one",
+            tag: "git",
+            question: "Mit ______ kann man sich den Status des Repositories anzeigen lassen.",
+            answers: ["git status","gitconfig","git add","git commit"],
+            correct: 0
             }
 
 ];
