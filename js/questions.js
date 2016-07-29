@@ -80,16 +80,30 @@ var questions_data = [
             {
             type: "one",
             tag: "git",
-            question: "Wie können Dateien aus dem Staging-Bereich wieder entfernt werden ?",
+            question: "Wie können Dateien aus dem Staging-Bereich von Git wieder entfernt werden ?",
             answers: ["'git empty' ausführen","mit dem Tool gitconfig","das Verzeichnis .staging löschen","'git rm --cached' ausführen"],
             correct: 3
             },
             {
             type: "one",
             tag: "git",
-            question: "Mit ______ kann man sich den Status des Repositories anzeigen lassen.",
+            question: "Mit ______ kann man sich den Status des Git-Repositories anzeigen lassen.",
             answers: ["git status","gitconfig","git add","git commit"],
             correct: 0
+            },
+            {
+            type: "one",
+            tag: "git",
+            question: "Wie wird der Staging-Bereich von Git durch einen Commit gespeichert ?",
+            answers: ["git serve ausführen","git commit -m 'Kommantar' ausführen","mit dem Tool gitsave","git save ausführen"],
+            correct: 1
+            },
+            {
+            type: "one",
+            tag: "git",
+            question: "Mit ______ kann man sich die Geschichte des Git-Repositories anzeigen lassen.",
+            answers: ["git dump","git history","git log","git save"],
+            correct: 2
             }
 
 ];
