@@ -104,6 +104,13 @@ var questions_data = [
             question: "Mit ______ kann man sich die Geschichte des Git-Repositories anzeigen lassen.",
             answers: ["git dump","git history","git log","git save"],
             correct: 2
+            },
+            {
+            type: "one",
+            tag: "git",
+            question: "Mit ______ werden Änderungen in den Dateien sichtbar, die seit dem letzten Commit bei Git passiert sind.",
+            answers: ["git dump","git history","git change","git diff"],
+            correct: 3
             }
 
 ];
