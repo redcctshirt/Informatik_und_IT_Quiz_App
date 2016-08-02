@@ -111,6 +111,13 @@ var questions_data = [
             question: "Mit ______ werden Änderungen in den Dateien sichtbar, die seit dem letzten Commit bei Git passiert sind.",
             answers: ["git dump","git history","git change","git diff"],
             correct: 3
+            },
+            {
+            type: "one",
+            tag: "git",
+            question: "Wie wird der Haupt-Zweig in einem Git-Repository genannt ?",
+            answers: ["master","main","first","up"],
+            correct: 0
             }
 
 ];
