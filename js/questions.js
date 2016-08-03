@@ -118,6 +118,27 @@ var questions_data = [
             question: "Wie wird der Haupt-Zweig in einem Git-Repository genannt ?",
             answers: ["master","main","first","up"],
             correct: 0
+            },
+            {
+            type: "one",
+            tag: "git",
+            question: "Mit ______ kann man sich alle vorhandenen Branches in einem Git-Repository anzeigen lassen.",
+            answers: ["git branches","git branch","git ls","git dir"],
+            correct: 1
+            },
+            {
+            type: "one",
+            tag: "git",
+            question: "Wie kann man den neuen Branch portal im Git-Repository erstellen ?",
+            answers: ["git create portal ausführen","ein neues Verzeichnis namens .portal im .git-Ordner erstellen","git branch portal ausführen","mit dem Tool gitbranch"],
+            correct: 2
+            },
+            {
+            type: "one",
+            tag: "git",
+            question: "Mit welchem Kommando kann man in einem Git-Repository zu einem anderen Entwicklungszweig wechseln ?",
+            answers: ["git active","git up","git change","git checkout"],
+            correct: 3
             }
 
 ];
