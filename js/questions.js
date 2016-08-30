@@ -146,6 +146,13 @@ var questions_data = [
             question: "Mit welcher Eingabe kann man in einem Git-Repository den Branch portal erstellen und zu diesem wechseln ?",
             answers: ["git checkout -b portal","git checkout portal","git new portal","git newactive portal"],
             correct: 0
+            }, 
+            {
+            type: "one",
+            tag: "git",
+            question: "Wie lautet der git-Befehl zum mergen ?",
+            answers: ["git to","git merge","es gibt keinen","git add"],
+            correct: 1
             }
 
 ];
